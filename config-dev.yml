@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: pig-config-server
+#  profiles:
+#    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chenxiaodanwei/vas_test
+#          default-label: ${spring.profiles.active}
+          username: 369612871@qq.com
+          password: github5731 #解决监控down
+envi:
+  dev
